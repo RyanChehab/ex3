@@ -4,7 +4,9 @@ body{
     align-items: center;
     background-color: black;
 }
-
+.container{
+    text-align: center;
+}
 .star{
     color: red;
 }

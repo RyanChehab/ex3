@@ -1,13 +1,13 @@
-let input = prompt("Enter a positive number: ") 
+let height = prompt("Enter the height of the tree: ") 
 
 // main condition
-if (!isNaN(input) && input!== "" && input>0){
-    console.log(input)
+if (!isNaN(height) && height!== "" && height>0){
+    console.log(height)
 
-    for(let i = 0; i<input;i++){
-        
+    for(let i = 0; i<height;i++){
+
     }
 }
 else{
-    console.log("incorrect nb")
+    console.log("invalid input")
 }
